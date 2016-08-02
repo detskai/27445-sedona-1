@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Anton Detskai](https://up.htmlacademy.ru/htmlcss/14/user/27445).
-* Наставник: `Неизвестно`.
+* Наставник: `None`.
 
 ---
 
