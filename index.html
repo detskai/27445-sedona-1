@@ -5,8 +5,121 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+	<div class="container">
+		<header class="main-header">
+			<nav class="left-navigation">
+				<ul>
+					<li><a href="#">информация</a></li>
+					<li><a href="#">фото и видео</a></li>
+				</ul>
+			</nav>
+			<a class="logo" href="#"><img src="img/index-logo.png" width="" height="" alt="city of sedona"></a>
+			<nav class="right-navigation">
+				<ul>
+					<li><a href="#">карта штата</a></li>
+					<li><a href="#">гостиницы</a></li>					
+				</ul>
+			</nav>
+		</header>
+		<main class="container">
+			<div class="welcome-block">
+				<img src="img/sedona-headlines.png" width="" height="" alt="welcome to the gorgous sedona">
+			</div>
+			<div class="decoration-block">				
+			</div>
+			<div class="headline">
+				<h2 class="headline-title">седона - небольшой городок в аризоне, заслуживающий большего!</h2>
+				<p class="headline-text">рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+			</div>
+			<section class="reasons">
+				<div class="reason-text">
+				<p class="reason-name">Настоящий городок</p>
+				<p>— №1 —</p>
+				<p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+				</div>
+				<div class="reason-picture">
+				</div>
+			</section>
+			<section class="features">
+			<div class="features item">
+			<b class="features-name">жилье</b>
+			<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+			</div>
+			<div class="features item">
+			<b class="features-name">еда</b>
+			<p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+			</div>
+			<div class="features item">
+			<b class="features-name">сувениры</b>
+			<p>Не только китайского, но и местного производства!</p>
+			</div>
+			</section>
+			<section class="reasons">
+			<div class="reason-picture">
+				</div>
+			<div class="reason-text">
+				<p class="features-name">Там есть мост дьявола</p>
+				<p>— №2 —</p>
+				<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+				</div>				
+			</section>
+			<section class="subreasons">
+			<div class="features item">
+			<b class="features-name">НЕБОЛЬШАЯ ПЛОЩАДЬ</b>
+			<p>— №3 —</p>
+			<p>ВСЕ достопримечательности находятся очень близко</p>
+			</div>
+			<div class="features item">
+			<b class="features-name">КРАСИВАЯ ДОРОГА</b>
+			<p>— №4 —</p>
+			<p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
+			</div>
+			<div class="features item">
+			<b class="features-name">МАЛО ТУРИСТОВ</b>
+			<p>— №5 —</p>
+			<p>Большинство едет в гранд каньон и толпится там</p>
+			</div>
+			</section>
+			<section class="booking">
+				<b class="booking-title">Заинтересовались?</b>
+				<p  class="booking-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостинец в седоне</p>
+				<div class="booking-form">
+					<div class="form-title">
+					<p>Поиск гостиниц в седоне</p>
+					</div>
+					<form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+						<label for="date-in">Дата заезда</label> 
+						<input type="text" id="date-in" name="date" value="">
+						<label for="date-out">Дата выезда</label>
+						<input type="text" id="date-out" name="date" value="">
+						<label for="adults">Взрослые</label>
+						<input type="text" id="adults" name="date" value="">
+						<label for="children">Дети</label>
+						<input type="text" id="children" name="date" value="">
+						<input type="button" >
+					</form>
+					
+				</div>
+				<div class="booking-map">
+				</div>
+			</section>
+			
+		</main>
+		<footer class="main-footer">
+			<div class="footer-hashtag">
+			<span>#visitsedona</span>
+			</div>
+			<div class="footer-social">
+				<a class="social-btn social-btn-twitter" href="#">twitter</a>
+				<a class="social-btn social-btn-fb" href="#">facebook</a>
+				<a class="social-btn social-btn-youtube" href="#">youtube</a>
+			</div>
+			<div class="footer-copyright">
+				<span>website by</span>
+				<a class="btn" href="#">html academy</a>
+			</div>
+		</footer>
+	</div>
   </body>
 </html>
+
